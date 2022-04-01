@@ -8,4 +8,8 @@ As we can see from the official definition, routing buckets allow us to create a
 
 ## What is the purpose of this repo?
 
-Inside of the routinbuckets.lua file, there's three server sided functions showcasing an example of how to utilize routing buckets. The sample code contains no context of use, but shows an efficient method of how you could use routing buckets in your project. The two events and their triggers are for the sake of ease of access for the sake of demo,** I do not recommend these sample events in a live project unless you make them more secure! In their current state, a kid with an injector could easily troll your entire server by segregating your players into separate routing buckets!**
+Inside of the routinbuckets.lua file, there's three server sided functions showcasing an example of how to utilize routing buckets. The sample code contains no context of use, but shows an efficient method of how you could use routing buckets in your project. The two events and their triggers are for the sake of ease of access for the sake of demo.
+
+## Important Note
+
+I do not recommend these sample events in a live project unless you make them more secure! In their current state, a kid with an injector could easily troll your entire server by segregating your players into separate routing buckets!
