@@ -1,14 +1,14 @@
 -- Clientside--
-TriggerServerEvent('multichar-routingbucket:SetRoutingBucket') -- Event that puts player in a different routing bucket
+TriggerServerEvent('routingbucket:SetRoutingBucket') -- Event that puts player in a different routing bucket
 
-TriggerServerEvent('multichar-routingbucket:ClearRoutingBucket') -- Event that returns the player to the default bucket
+TriggerServerEvent('routingbucket:ClearRoutingBucket') -- Event that returns the player to the default bucket
 
 -- Serverside--
-RegisterNetEvent('multichar-routingbucket:SetRoutingBucket', function()
+RegisterNetEvent('routingbucket:SetRoutingBucket', function()
 SetBucketToUse(source)
 end)
 
-RegisterNetEvent('multichar-routingbucket:ClearRoutingBucket', function()
+RegisterNetEvent('routingbucket:ClearRoutingBucket', function()
 ReturnToGameDefaultBucket(source)
 end)
 
