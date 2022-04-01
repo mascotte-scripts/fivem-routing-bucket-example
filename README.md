@@ -12,4 +12,4 @@ Inside of the routinbuckets.lua file, there's three server sided functions showc
 
 ## Important Note
 
-I do not recommend these sample events in a live project unless you make them more secure! In their current state, a kid with an injector could easily troll your entire server by segregating your players into separate routing buckets!
+I do not recommend using these sample events in a live project unless you make them more secure! In their current state, a kid with an injector could easily troll your entire server by segregating your players into separate routing buckets as no checks are made as to who is executing the event!
